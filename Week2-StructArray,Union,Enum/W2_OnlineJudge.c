@@ -128,7 +128,7 @@ int main(void) {
 //  채워넣을 부분
 struct person { //구조체 정의
 
-	char name[9];
+	char name[10];
 	unsigned int age;
 };
 
@@ -139,7 +139,6 @@ int index = 0;
 void addToInfo(struct person _p) {
 
 	strcpy(pArray[index].name, _p.name);
-	//pArray[index].name = _p.name;
 	pArray[index].age = _p.age;
 	index++;
 
@@ -148,49 +147,33 @@ void addToInfo(struct person _p) {
 
 void showInfo_ascending_order(void) {
 
-		char tmp_name[9];
+		char tmp_name[10];
 		unsigned int tmp_age;
 
-		/*
-		//// 버블소트
-		for (int i = 0; i < index; i++)
-		{		
-			char tmp;		
-			for (int j = 0; j < strlen(pArray[i].name)-1; j++)
-			{
-			  for (int k = 0; k < strlen(pArray[i].name) - j-1; k++)
-			  {
-			      if (pArray[i].name[k] > pArray[i].name[k + 1]) {
-			          tmp = pArray[i].name[k];
-			          pArray[i].name[k] = pArray[i].name[k + 1];
-			          pArray[i].name[k + 1] = tmp;
-			      }
-			  }
-			}
-			printf("%s ---> %d\n", pArray[i].name, pArray[i].age);
-		}
-		*/
-
-
-		for (int j = 0; j < index; j++)
+		for (int j = 0; j < index - 1; j++)
 		{
-			for (int k = 0; k < index - j -1; k++)
+			for (int k = 0; k < index - j - 1; k++)
 			{
 				if (strcmp(pArray[k].name, pArray[k + 1].name) > 0) //앞이 사전순으로 더 크면
 				{
 					strcpy(tmp_name, pArray[k].name);
-					strcpy(pArray[k].name, pArray[k+1].name);					
-					strcpy(pArray[k+1].name, tmp_name);
+					strcpy(pArray[k].name, pArray[k + 1].name);
+					strcpy(pArray[k + 1].name, tmp_name);
 
-					tmp_age = pArray[k].age;
-					pArray[k].age = pArray[k + 1].age;
-					pArray[k+1].age = tmp_age;
+					//tmp_age = pArray[k].age;
+					//pArray[k].age = pArray[k + 1].age;
+					//pArray[k + 1].age = tmp_age;
 
 				}
 			}
-			printf("%s ---> %d\n", pArray[j].name, pArray[j].age);
+
 		}
 
+		for (int i = 0; i < index; i++)
+		{
+			printf("%s ---> %d\n", pArray[i].name, pArray[i].age);
+		}
+			
 }
 
 //-------------------------------------------------
