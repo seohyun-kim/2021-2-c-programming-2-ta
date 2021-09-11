@@ -1,5 +1,4 @@
-# 3주차 강의내용  
-<br>  
+# [3주차] typedef, 포인터 기초
 
 ### 🔑 key word: `typedef`, `pointer`  
 <br>  
