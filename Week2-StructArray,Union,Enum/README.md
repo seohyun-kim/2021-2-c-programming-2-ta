@@ -1,6 +1,9 @@
 # [2주차] 구조체 배열, 공용체, 열거형
 🔑 key word : `struct array` `union` `enum`  
 
+[2주차 온라인 저지 문제 풀이 zoom 녹화본](https://www.youtube.com/watch?v=zLTK13hvgk0&list=PLb0pgb0RlXErPhqHHaL38hIr7HWcZDRhO&index=2)  
+
+
 ## 구조체 배열   
 ```c
 #define _CRT_SECURE_NO_WARNINGS
