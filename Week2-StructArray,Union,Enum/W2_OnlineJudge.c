@@ -53,7 +53,7 @@ int main(void) {
 //  채워넣을 부분
 struct person { //구조체 정의
 
-	char name[9];
+	char name[10];
 	unsigned int age;
 };
 
@@ -70,7 +70,7 @@ void addToInfo(struct person _p) {
 
 	return;
 }
-
+//0 1 2 3
 
 void showInfo(void) {
 	for (int i = 0; i < index; i++)
@@ -113,7 +113,7 @@ int main(void) {
 #endif
 
 
-
+#if 0
 //======================= 1530 ==================
 //----------------------------------------------------
 // main함수가 동작할 수 있도록 필요부분을 프로그래밍하세요.
@@ -152,17 +152,13 @@ void showInfo_ascending_order(void) {
 
 		for (int j = 0; j < index - 1; j++)
 		{
-			for (int k = 0; k < index - j - 1; k++)
+			for (int k = j; k < index - j - 1; k++)
 			{
 				if (strcmp(pArray[k].name, pArray[k + 1].name) > 0) //앞이 사전순으로 더 크면
 				{
 					strcpy(tmp_name, pArray[k].name);
 					strcpy(pArray[k].name, pArray[k + 1].name);
 					strcpy(pArray[k + 1].name, tmp_name);
-
-					//tmp_age = pArray[k].age;
-					//pArray[k].age = pArray[k + 1].age;
-					//pArray[k + 1].age = tmp_age;
 
 				}
 			}
@@ -207,5 +203,4 @@ int main(void) {
 	return 0;
 
 }
-
-
+#endif
