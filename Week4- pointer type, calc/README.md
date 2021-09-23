@@ -42,7 +42,7 @@
 
 <br>  
 
-## 타입에 따른 포인터 덧셈 연산  
+## 타입에 따른 포인터 덧셈 연산 : 포인터타입 크기만큼 증감됨  
 ![image](https://user-images.githubusercontent.com/61939286/134562085-3b241753-bf61-4e64-a92c-89f8f6ead9ad.png)  
 
 <br>  
