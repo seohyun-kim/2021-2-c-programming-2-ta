@@ -1,6 +1,6 @@
 # [4주차] 포인터 타입, 연산  
 
-### 🔑 key word: `pointer`, `pointer type`, `pointer calculation`, `little endian`  
+### 🔑 key word: `pointer`, `pointer type`, `pointer operation`, `little endian`  
 <br>  
 
 
