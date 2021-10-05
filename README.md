@@ -20,3 +20,5 @@
 [4주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week4-%20pointer%20type%2C%20operation#4%EC%A3%BC%EC%B0%A8-%ED%8F%AC%EC%9D%B8%ED%84%B0-%ED%83%80%EC%9E%85-%EC%97%B0%EC%82%B0)   : `pointer` `pointer type` `pointer operation` `little endian`
 
 [5주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week5-pointer%20array%2C%20function#5%EC%A3%BC%EC%B0%A8-%ED%8F%AC%EC%9D%B8%ED%84%B0-%EB%B0%B0%EC%97%B4)    :  `pointer` `pointer operation` `function`
+
+[6주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week6-function%2C%20callByRef%2C%20pointer#6%EC%A3%BC%EC%B0%A8-call-by-ref-function-double-pointer)    :  `call by value`, `call by reference`,  `array function`, `struct function`, `double pointer`
