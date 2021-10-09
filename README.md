@@ -22,3 +22,5 @@
 [5주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week5-pointer%20array%2C%20function#5%EC%A3%BC%EC%B0%A8-%ED%8F%AC%EC%9D%B8%ED%84%B0-%EB%B0%B0%EC%97%B4)    :  `pointer` `pointer operation` `function`
 
 [6주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week6-function%2C%20callByRef%2C%20pointer#6%EC%A3%BC%EC%B0%A8-call-by-ref-function-double-pointer)    :  `call by value` `call by reference`  `array function` `struct function` `double pointer`
+
+[7주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week7-double%20pointer%2C%20file%20ext%2C%20ragged%20arr%2C%20fun%20pointer#7%EC%A3%BC%EC%B0%A8-%EB%8D%94%EB%B8%94%ED%8F%AC%EC%9D%B8%ED%84%B0-%ED%99%95%EC%9E%A5%EC%9E%90-ragged-arr-fun-pointer)  :  `double pointer` `file extension`  `ragge array` `function pointer` `function pointer array`  
