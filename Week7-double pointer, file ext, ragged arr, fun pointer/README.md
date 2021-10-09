@@ -1,49 +1,42 @@
-# [6주차] Call By Ref, function, double pointer
+# [7주차] 더블포인터, 확장자, ragged arr, fun pointer
 
-### 🔑 key word:   `call by value`, `call by reference`,  `array function`, `struct function`, `double pointer`
+
+### 🔑 key word:   `double pointer`, `file extension`,  `ragge array`, `function pointer`, `function pointer array`  
 <br>  
 
-## call by reference (주소를 인자로 넘겨줌)
-![image](https://user-images.githubusercontent.com/61939286/135963543-a1ffadb7-b6ab-4bf1-9c30-df8ba6388320.png)
-![image](https://user-images.githubusercontent.com/61939286/135963572-344c16c7-bbce-448c-86e2-50927431f432.png)
-
+## 더블포인터를 함수 인자로 이용해 주소값을 지정
+![image](https://user-images.githubusercontent.com/61939286/136670300-5ad331ed-1905-4068-953f-dc579580706b.png)  
 <br>  
 
-## scanf 함수는 안에 있는 값을 가져와야 하기 때문에 call by ref  
-
-![image](https://user-images.githubusercontent.com/61939286/135974966-69bbd445-4ba7-4fee-aa71-b501f9641748.png)
-
+## .cpp는 c언어의 기능을 포함  
+![image](https://user-images.githubusercontent.com/61939286/136670396-2526820d-9119-4bcb-b6cb-d3034c69cae4.png)  
 <br>  
 
-## 배열을 인자로 하는 함수 - 두가지 방법 똑같음  
-
-> 포인터로 받아서 포인터로 쓰거나, 배열로 쓰거나  
-![image](https://user-images.githubusercontent.com/61939286/135976950-a26aa8e0-80c4-4a2b-bd20-d0a9024ad098.png)
-
-> 배열로 받아서 포인터로 쓰거나, 배열로 쓰거나  
-> ![image](https://user-images.githubusercontent.com/61939286/135977106-6a447446-6300-4093-857e-a9e354b3800c.png)
-
-##### ✔ 배열로 받았으면 배열로 쓰고, 포인터로 받았으면 포인터로 쓰는게 더 좋음
+## Array of pointer : 배열 각각의 형태가 포인터타입  
+![image](https://user-images.githubusercontent.com/61939286/136670430-92b83d86-4cae-4293-bc61-5392a5025f12.png)
+![image](https://user-images.githubusercontent.com/61939286/136670475-955762fd-3a53-459b-b981-20711648a5ac.png)
 <br>  
 
-## 함수 반환값이 포인터인경우  -- ⚠ 주의 !  
-#### ❌ 이렇게 짜면 안돼!
-함수 안에서 변수를 만들고 그 주소를 리턴하는 것은 위험함  
-![image](https://user-images.githubusercontent.com/61939286/135977956-576da070-a647-4ee2-8d7b-044db9a79c23.png)
+## Ragged 배열: 각 행마다 열의 갯수가 다른 배열 (공간낭비 줄일 수 있음)  
+![image](https://user-images.githubusercontent.com/61939286/136671555-0a3c7509-4600-42f0-a2d5-809fe036dc92.png)
+<br>  
 
-<br>   
+## 함수포인터 : 그 주소를 따라가면 함수가 있다!  
+`반환값 형태` (* pf)(`입력인자1 형태`, `입력인자2 형태`, ...)  ;  
 
-## 구조체 포인터로 멤버 접근할 때는 `->`
-![image](https://user-images.githubusercontent.com/61939286/135982543-c7aa1247-97df-4755-b310-1b31e51ab054.png)  
+### 함수 이름은 바로 주소 그 자체임!
+![image](https://user-images.githubusercontent.com/61939286/136672248-6a404d02-7edb-4802-b5b9-3485bd48f75a.png)  
 
-<br>   
+### 함수포인터로 호출 할 때 그냥 변수명으로 하면됨  
+```c
+res = pf(4,5);
+```
+<br>  
 
-## 구조체를 함수 인자로! (구조체 포인터를 이용해 call by ref)  
-![image](https://user-images.githubusercontent.com/61939286/135982775-77b9b5c0-260d-4573-878a-f65d86864eb7.png)
-<br>   
+## 함수포인터 예제  
+![image](https://user-images.githubusercontent.com/61939286/136672385-cd396dff-2ebf-4220-ab77-4100a97bbeec.png)
+<br>  
 
-## Double Pointer  
-
-![image](https://user-images.githubusercontent.com/61939286/135981323-29bda1a9-3a23-4c54-b70b-08085e661a12.png)
-![image](https://user-images.githubusercontent.com/61939286/135981421-73de0a03-9dc4-4c7c-a33e-6a6466930a79.png)
+## 함수 포인터 배열  
+![image](https://user-images.githubusercontent.com/61939286/136672492-5b321a80-e4aa-4a69-9417-efc26e058c19.png)
 
