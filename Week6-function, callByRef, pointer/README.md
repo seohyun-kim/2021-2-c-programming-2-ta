@@ -1,6 +1,6 @@
 # [6주차] Call By Ref, function, double pointer
 
-### 🔑 key word:   `call by value`, `call by reference`,  `array function`, `struct function`, `double pointer`
+### 🔑 key word:   `call by value`, `call by reference`,  `array function`,`struct pointer`, `struct function`, `double pointer`
 <br>  
 
 ## call by reference (주소를 인자로 넘겨줌)
