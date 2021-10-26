@@ -1,10 +1,10 @@
 //=============== 1528 =================
 //----------------------------------------------------
-// mainÇÔ¼ö°¡ µ¿ÀÛÇÒ ¼ö ÀÖµµ·Ï ÇÊ¿äºÎºÐÀ» ÇÁ·Î±×·¡¹ÖÇÏ¼¼¿ä.
-// ¿¹. ÇÊ¿äÇÑ ±¸Á¶Ã¼ Á¤ÀÇµî.
-// ¿Ï¼º ÈÄ¿¡´Â ÀüÃ¼¸¦ º¹»çÇÏ¿©, ºÙ¿©³Ö±â·Î Á¦ÃâÇÏ¸é µË´Ï´Ù.
+// mainí•¨ìˆ˜ê°€ ë™ìž‘í•  ìˆ˜ ìžˆë„ë¡ í•„ìš”ë¶€ë¶„ì„ í”„ë¡œê·¸ëž˜ë°í•˜ì„¸ìš”.
+// ì˜ˆ. í•„ìš”í•œ êµ¬ì¡°ì²´ ì •ì˜ë“±.
+// ì™„ì„± í›„ì—ëŠ” ì „ì²´ë¥¼ ë³µì‚¬í•˜ì—¬, ë¶™ì—¬ë„£ê¸°ë¡œ ì œì¶œí•˜ë©´ ë©ë‹ˆë‹¤.
 
-//  Ã¤¿ö³ÖÀ» ºÎºÐ
+//  ì±„ì›Œë„£ì„ ë¶€ë¶„
 
 #if 0
 
@@ -12,14 +12,14 @@
 #include <stdio.h>
 #include <string.h>
 
-struct person { //±¸Á¶Ã¼ Á¤ÀÇ
+struct person { //êµ¬ì¡°ì²´ ì •ì˜
 
 	char name[10];
 	unsigned int age;
 };
 
 //-------------------------------------------------
-// ¾Æ·¡·Î´Â ¾î¶°ÇÑ º¯°æµµ ÇÏÁö ¸¶¼¼¿ä.
+// ì•„ëž˜ë¡œëŠ” ì–´ë– í•œ ë³€ê²½ë„ í•˜ì§€ ë§ˆì„¸ìš”.
 int main(void) {
 
 	struct person p;
@@ -41,23 +41,23 @@ int main(void) {
 
 //=================== 1529 ======================
 //----------------------------------------------------
-// mainÇÔ¼ö°¡ µ¿ÀÛÇÒ ¼ö ÀÖµµ·Ï ÇÊ¿äºÎºÐÀ» ÇÁ·Î±×·¡¹ÖÇÏ¼¼¿ä.
-// ¿¹. ÇÊ¿äÇÑ ±¸Á¶Ã¼ Á¤ÀÇ, Àü¿ªº¯¼ö µî.
-// ¿Ï¼º ÈÄ¿¡´Â ÀüÃ¼¸¦ º¹»çÇÏ¿©, ºÙ¿©³Ö±â·Î Á¦ÃâÇÏ¸é µË´Ï´Ù.
+// mainí•¨ìˆ˜ê°€ ë™ìž‘í•  ìˆ˜ ìžˆë„ë¡ í•„ìš”ë¶€ë¶„ì„ í”„ë¡œê·¸ëž˜ë°í•˜ì„¸ìš”.
+// ì˜ˆ. í•„ìš”í•œ êµ¬ì¡°ì²´ ì •ì˜, ì „ì—­ë³€ìˆ˜ ë“±.
+// ì™„ì„± í›„ì—ëŠ” ì „ì²´ë¥¼ ë³µì‚¬í•˜ì—¬, ë¶™ì—¬ë„£ê¸°ë¡œ ì œì¶œí•˜ë©´ ë©ë‹ˆë‹¤.
 
 #if 0
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
 
-//  Ã¤¿ö³ÖÀ» ºÎºÐ
-struct person { //±¸Á¶Ã¼ Á¤ÀÇ
+//  ì±„ì›Œë„£ì„ ë¶€ë¶„
+struct person { //êµ¬ì¡°ì²´ ì •ì˜
 
 	char name[10];
 	unsigned int age;
 };
 
-struct person pArray[10];//Àü¿ªº¯¼ö·Î ±¸Á¶Ã¼ ¹è¿­ ¼±¾ð
+struct person pArray[10];//ì „ì—­ë³€ìˆ˜ë¡œ êµ¬ì¡°ì²´ ë°°ì—´ ì„ ì–¸
 
 int index = 0;
 
@@ -80,13 +80,13 @@ void showInfo(void) {
 }
 
 //-------------------------------------------------
-// ¾Æ·¡·Î´Â ¾î¶°ÇÑ º¯°æµµ ÇÏÁö ¸¶¼¼¿ä.
+// ì•„ëž˜ë¡œëŠ” ì–´ë– í•œ ë³€ê²½ë„ í•˜ì§€ ë§ˆì„¸ìš”.
 int main(void) {
 
-	// ÃÖ´ë ±æÀÌ 9ÀÎ ÀÌ¸§°ú ³ªÀÌ¸¦ n°³ (ÃÖ´ë n=10) ÀÔ·Â¹Þ¾Æ 
-	// ±¸Á¶Ã¼¿¡ ³ÖÀº ÈÄ, ±¸Á¶Ã¼ ¹è¿­¿¡ ÀúÀåÇÏ´Â ÇÔ¼ö addToInfo()¸¦ È£ÃâÇÑ´Ù.
-	// ÀÌ¸§¿¡ "end"°¡ ÀÔ·ÂµÇ¸é, 
-	// showInfo() ÇÔ¼ö¸¦ È£ÃâÇÏ¿©, ±¸Á¶Ã¼ ¹è¿­ÀÇ °ªµéÀ» ÀÔ·Â¼øÀ¸·Î Ãâ·ÂÇÑ´Ù.
+	// ìµœëŒ€ ê¸¸ì´ 9ì¸ ì´ë¦„ê³¼ ë‚˜ì´ë¥¼ nê°œ (ìµœëŒ€ n=10) ìž…ë ¥ë°›ì•„ 
+	// êµ¬ì¡°ì²´ì— ë„£ì€ í›„, êµ¬ì¡°ì²´ ë°°ì—´ì— ì €ìž¥í•˜ëŠ” í•¨ìˆ˜ addToInfo()ë¥¼ í˜¸ì¶œí•œë‹¤.
+	// ì´ë¦„ì— "end"ê°€ ìž…ë ¥ë˜ë©´, 
+	// showInfo() í•¨ìˆ˜ë¥¼ í˜¸ì¶œí•˜ì—¬, êµ¬ì¡°ì²´ ë°°ì—´ì˜ ê°’ë“¤ì„ ìž…ë ¥ìˆœìœ¼ë¡œ ì¶œë ¥í•œë‹¤.
 	struct person p;
 	char name[10];
 	unsigned int age;
@@ -103,8 +103,8 @@ int main(void) {
 		addToInfo(p);
 	}
 
-	// ±¸Á¶Ã¼ ¹è¿­¿¡ ÀúÀåµÈ °ªµéÀ» ÀÔ·Â¼øÀ¸·Î Ãâ·ÂÇÏ´Â ÇÔ¼ö
-	// Ãâ·ÂÇü½ÄÀº "name ---> age"
+	// êµ¬ì¡°ì²´ ë°°ì—´ì— ì €ìž¥ëœ ê°’ë“¤ì„ ìž…ë ¥ìˆœìœ¼ë¡œ ì¶œë ¥í•˜ëŠ” í•¨ìˆ˜
+	// ì¶œë ¥í˜•ì‹ì€ "name ---> age"
 	showInfo();
 
 	return 0;
@@ -116,23 +116,23 @@ int main(void) {
 #if 0
 //======================= 1530 ==================
 //----------------------------------------------------
-// mainÇÔ¼ö°¡ µ¿ÀÛÇÒ ¼ö ÀÖµµ·Ï ÇÊ¿äºÎºÐÀ» ÇÁ·Î±×·¡¹ÖÇÏ¼¼¿ä.
-// ¿¹. ÇÊ¿äÇÑ ±¸Á¶Ã¼ Á¤ÀÇ, Àü¿ªº¯¼ö µî.
-// ¿Ï¼º ÈÄ¿¡´Â ÀüÃ¼¸¦ º¹»çÇÏ¿©, ºÙ¿©³Ö±â·Î Á¦ÃâÇÏ¸é µË´Ï´Ù.
+// mainí•¨ìˆ˜ê°€ ë™ìž‘í•  ìˆ˜ ìžˆë„ë¡ í•„ìš”ë¶€ë¶„ì„ í”„ë¡œê·¸ëž˜ë°í•˜ì„¸ìš”.
+// ì˜ˆ. í•„ìš”í•œ êµ¬ì¡°ì²´ ì •ì˜, ì „ì—­ë³€ìˆ˜ ë“±.
+// ì™„ì„± í›„ì—ëŠ” ì „ì²´ë¥¼ ë³µì‚¬í•˜ì—¬, ë¶™ì—¬ë„£ê¸°ë¡œ ì œì¶œí•˜ë©´ ë©ë‹ˆë‹¤.
 
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 #include <string.h>
 
-//  Ã¤¿ö³ÖÀ» ºÎºÐ
-struct person { //±¸Á¶Ã¼ Á¤ÀÇ
+//  ì±„ì›Œë„£ì„ ë¶€ë¶„
+struct person { //êµ¬ì¡°ì²´ ì •ì˜
 
 	char name[10];
 	unsigned int age;
 };
 
-struct person pArray[10];//Àü¿ªº¯¼ö·Î ±¸Á¶Ã¼ ¹è¿­ ¼±¾ð
+struct person pArray[10];//ì „ì—­ë³€ìˆ˜ë¡œ êµ¬ì¡°ì²´ ë°°ì—´ ì„ ì–¸
 
 int index = 0;
 
@@ -152,9 +152,9 @@ void showInfo_ascending_order(void) {
 
 		for (int j = 0; j < index - 1; j++)
 		{
-			for (int k = j; k < index - j - 1; k++)
+			for (int k = 0; k < index - j - 1; k++)
 			{
-				if (strcmp(pArray[k].name, pArray[k + 1].name) > 0) //¾ÕÀÌ »çÀü¼øÀ¸·Î ´õ Å©¸é
+				if (strcmp(pArray[k].name, pArray[k + 1].name) > 0) //ì•žì´ ì‚¬ì „ìˆœìœ¼ë¡œ ë” í¬ë©´
 				{
 					strcpy(tmp_name, pArray[k].name);
 					strcpy(pArray[k].name, pArray[k + 1].name);
@@ -173,13 +173,13 @@ void showInfo_ascending_order(void) {
 }
 
 //-------------------------------------------------
-// ¾Æ·¡·Î´Â ¾î¶°ÇÑ º¯°æµµ ÇÏÁö ¸¶¼¼¿ä.
+// ì•„ëž˜ë¡œëŠ” ì–´ë– í•œ ë³€ê²½ë„ í•˜ì§€ ë§ˆì„¸ìš”.
 int main(void) {
 
-	// ÃÖ´ë ±æÀÌ 9ÀÎ ÀÌ¸§°ú ³ªÀÌ¸¦ n°³ (ÃÖ´ë n=10) ÀÔ·Â¹Þ¾Æ 
-	// ±¸Á¶Ã¼¿¡ ³ÖÀº ÈÄ, ±¸Á¶Ã¼ ¹è¿­¿¡ ÀúÀåÇÏ´Â ÇÔ¼ö addToInfo()¸¦ È£ÃâÇÑ´Ù.
-	// ÀÌ¸§¿¡ "end"°¡ ÀÔ·ÂµÇ¸é, 
-	// showInfo_ascening_order() ÇÔ¼ö¸¦ È£ÃâÇÏ¿©, ±¸Á¶Ã¼ ¹è¿­ÀÇ °ªµéÀ» ¾ËÆÄºªÀÇ ¿À¸§Â÷¼øÀ¸·Î Ãâ·ÂÇÑ´Ù.
+	// ìµœëŒ€ ê¸¸ì´ 9ì¸ ì´ë¦„ê³¼ ë‚˜ì´ë¥¼ nê°œ (ìµœëŒ€ n=10) ìž…ë ¥ë°›ì•„ 
+	// êµ¬ì¡°ì²´ì— ë„£ì€ í›„, êµ¬ì¡°ì²´ ë°°ì—´ì— ì €ìž¥í•˜ëŠ” í•¨ìˆ˜ addToInfo()ë¥¼ í˜¸ì¶œí•œë‹¤.
+	// ì´ë¦„ì— "end"ê°€ ìž…ë ¥ë˜ë©´, 
+	// showInfo_ascening_order() í•¨ìˆ˜ë¥¼ í˜¸ì¶œí•˜ì—¬, êµ¬ì¡°ì²´ ë°°ì—´ì˜ ê°’ë“¤ì„ ì•ŒíŒŒë²³ì˜ ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì¶œë ¥í•œë‹¤.
 	struct person p;
 	char name[10];
 	unsigned int age;
@@ -196,8 +196,8 @@ int main(void) {
 		addToInfo(p);
 	}
 
-	// ±¸Á¶Ã¼ ¹è¿­¿¡ ÀúÀåµÈ °ªµéÀ» ¾ËÆÄºªÀÇ ¿À¸§Â÷¼øÀ¸·Î Ãâ·ÂÇÏ´Â ÇÔ¼ö
-	// Ãâ·ÂÇü½ÄÀº "name ---> age"
+	// êµ¬ì¡°ì²´ ë°°ì—´ì— ì €ìž¥ëœ ê°’ë“¤ì„ ì•ŒíŒŒë²³ì˜ ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì¶œë ¥í•˜ëŠ” í•¨ìˆ˜
+	// ì¶œë ¥í˜•ì‹ì€ "name ---> age"
 	showInfo_ascending_order();
 
 	return 0;
