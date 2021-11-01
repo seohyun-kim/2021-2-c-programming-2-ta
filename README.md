@@ -25,4 +25,4 @@
 
 [7주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week7-double%20pointer%2C%20file%20ext%2C%20ragged%20arr%2C%20fun%20pointer#7%EC%A3%BC%EC%B0%A8-%EB%8D%94%EB%B8%94%ED%8F%AC%EC%9D%B8%ED%84%B0-%ED%99%95%EC%9E%A5%EC%9E%90-ragged-arr-fun-pointer)  :  `double pointer` `file extension`  `ragge array` `function pointer` `function pointer array`  
 
-[ 📝 중간고사 연습문제 바로가기](https://rose-buckaroo-d20.notion.site/2021-2-C-2-55813d701a72420d8775218216bdde35)  
+[ 📝 중간고사 연습문제 바로가기](https://rose-buckaroo-d20.notion.site/C-2-f74930a7d46343769b6cf92e63aa5682)  
