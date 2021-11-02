@@ -1,7 +1,7 @@
 # [9주차] 함수 포인터 배열, 2차원 배열과 더블포인터, const 
 
 
-### 🔑 key word:  `function pointer array` , `2D Array` , `Double Pointer` , `const`
+### 🔑 key word:  `function pointer array` , `2D Array` , `Double Pointer` , `const`, `const pointer`
 <br>  
 
 ## 함수포인터 배열 예제
