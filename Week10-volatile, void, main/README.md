@@ -1,7 +1,8 @@
 # [10주차] 최적화와 volatile, void 포인터, 
 
 
-### 🔑 key word:  `volatile` ,
+### 🔑 key word: `optimize`,  `volatile` , `void pointer`, `main argc argv`
+
 <br>  
 
 ## 전반적인 동작 과정  
