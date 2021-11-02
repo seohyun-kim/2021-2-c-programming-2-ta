@@ -27,4 +27,4 @@
 
 [ 📝 중간고사 연습문제 바로가기](https://rose-buckaroo-d20.notion.site/C-2-f74930a7d46343769b6cf92e63aa5682)  
 
-[9주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week9-2D%20Array) :  `function pointer array` , `2D Array` , `Double Pointer` , `const`, `const pointer`
+[9주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week9-2D%20Array) :  `function pointer array`  `2D Array` `Double Pointer`  `const` `const pointer`
