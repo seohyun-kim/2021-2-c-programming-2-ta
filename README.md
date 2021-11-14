@@ -1,5 +1,5 @@
 # C_programming_TA
-2021-2 C언어 프로그래밍 TA  
+2021-2 C언어 프로그래밍 TA 공개자료   
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fseohyun-kim%2FC_programming_TA&count_bg=%2396C0C2&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)  
 
@@ -9,6 +9,18 @@
 #### [🔗 TA Session 녹화영상 재생목록](https://youtube.com/playlist?list=PLb0pgb0RlXErPhqHHaL38hIr7HWcZDRhO)  
 
 <br>  
+
+
+## 시험 관련 자료  
+[ 📝 중간고사 연습문제 바로가기](https://rose-buckaroo-d20.notion.site/C-2-f74930a7d46343769b6cf92e63aa5682) &nbsp;  &nbsp; [📂중간 연습문제 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/about%20Midterm%20Exam%20Practice/MidtermExamPrac.c)  
+
+[ 💌 2021-2 C언어 중간고사 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/Week8-Midterm%20Exam/MidtermExamOnlineJudge(1534~1538).c)
+
+[⚜ 퀴즈1 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/Week10-volatile,%20void,%20main/Quiz_1_ex_sol(2021-11-09).c)
+
+
+<br>  
+
 
 ## 주차별 강의내용 정리  
 [1주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week1-Struct#1%EC%A3%BC%EC%B0%A8-%EA%B5%AC%EC%A1%B0%EC%B2%B4-%EC%A0%95%EC%9D%98-%EC%84%A0%EC%96%B8-%EB%8C%80%EC%9E%85-%EB%B9%84%EA%B5%90)   : `struct`  
@@ -25,14 +37,9 @@
 
 [7주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week7-double%20pointer%2C%20file%20ext%2C%20ragged%20arr%2C%20fun%20pointer#7%EC%A3%BC%EC%B0%A8-%EB%8D%94%EB%B8%94%ED%8F%AC%EC%9D%B8%ED%84%B0-%ED%99%95%EC%9E%A5%EC%9E%90-ragged-arr-fun-pointer)  :  `double pointer` `file extension`  `ragge array` `function pointer` `function pointer array`  
 
-[ 📝 중간고사 연습문제 바로가기](https://rose-buckaroo-d20.notion.site/C-2-f74930a7d46343769b6cf92e63aa5682) &nbsp;  &nbsp; [📂중간 연습문제 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/about%20Midterm%20Exam%20Practice/MidtermExamPrac.c)  
-
-[ 💌 2021-2 C언어 중간고사 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/Week8-Midterm%20Exam/MidtermExamOnlineJudge(1534~1538).c)
-
 [9주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week9-2D%20Array) :  `function pointer array`  `2D Array` `Double Pointer`  `const` `const pointer`
 
 [10주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week10-volatile%2C%20void%2C%20main) : `optimize`  `volatile`  `void pointer` `main argc argv`
 
-[⚜ 퀴즈1 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/Week10-volatile,%20void,%20main/Quiz_1_ex_sol(2021-11-09).c)
 
 [11주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week11-memory%2C%20malloc#11%EC%A3%BC%EC%B0%A8-%ED%8F%B0%EB%85%B8%EC%9D%B4%EB%A7%8C-%EA%B5%AC%EC%A1%B0-%EC%A0%95%EC%A0%81-%EB%8F%99%EC%A0%81-%EB%A9%94%EB%AA%A8%EB%A6%AC-malloc) : `memmory allocation` `static, dynamic memory`  `malloc`
