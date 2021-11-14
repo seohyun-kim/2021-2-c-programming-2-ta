@@ -1,4 +1,4 @@
-# [10주차] 최적화와 volatile, void 포인터, 
+# [10주차] 최적화와 volatile, void 포인터, 메인함수 
 
 
 ### 🔑 key word: `optimize`,  `volatile` , `void pointer`, `main argc argv`
