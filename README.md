@@ -30,3 +30,5 @@
 [9주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week9-2D%20Array) :  `function pointer array`  `2D Array` `Double Pointer`  `const` `const pointer`
 
 [10주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week10-volatile%2C%20void%2C%20main) : `optimize`  `volatile`  `void pointer` `main argc argv`
+
+[11주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week11-memory%2C%20malloc#11%EC%A3%BC%EC%B0%A8-%ED%8F%B0%EB%85%B8%EC%9D%B4%EB%A7%8C-%EA%B5%AC%EC%A1%B0-%EC%A0%95%EC%A0%81-%EB%8F%99%EC%A0%81-%EB%A9%94%EB%AA%A8%EB%A6%AC-malloc) : `memmory allocation` `static, dynamic memory`  `malloc`
