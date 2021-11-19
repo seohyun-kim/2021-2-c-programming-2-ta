@@ -39,15 +39,19 @@ p = realloc( p, sizeof(int) * 7);
 
 ## 파일 포인터  
 - OS안에 있는 파일이 저장되어있는 구조체에 대한 주소를 가지고 있음  
+<img src="https://user-images.githubusercontent.com/61939286/142661548-95152635-3cac-4e42-84da-3e96b1b21403.png" width="70%" >
+<img src="https://user-images.githubusercontent.com/61939286/142661862-b5a5dc3d-c85e-47bd-b641-7e27516e351d.png" width="70%" >
 
-![image](https://user-images.githubusercontent.com/61939286/142661548-95152635-3cac-4e42-84da-3e96b1b21403.png)
-![image](https://user-images.githubusercontent.com/61939286/142661862-b5a5dc3d-c85e-47bd-b641-7e27516e351d.png)
+- 예제 (fopen, fclose, fprintf)  
+  <img src="https://user-images.githubusercontent.com/61939286/142665098-0406a1cc-7047-40a4-8fd6-564c91bf49ac.png" width="70%" >
+
+- 예제 (fscanf)
+  ![image](https://user-images.githubusercontent.com/61939286/142667290-dd3d47d3-72c9-4ce3-83ae-fa8d4d267189.png)
+
+  
 
 <br>  
 
-
-## fopen, fclose  
- 
 
 
 
