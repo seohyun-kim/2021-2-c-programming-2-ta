@@ -29,3 +29,25 @@ p = realloc( p, sizeof(int) * 7);
 
 <br>  
 
+
+## 파일 스트림  
+<img src="https://user-images.githubusercontent.com/61939286/142660360-43fc442a-f6ea-48cb-8d43-5c4c3f38ca9f.png" width="50%" >  
+
+- 메모장으로 열어서 보이면 text file, 아니면 binary file(이미지, 문서,..)  
+
+<br>  
+
+## 파일 포인터  
+- OS안에 있는 파일이 저장되어있는 구조체에 대한 주소를 가지고 있음  
+
+![image](https://user-images.githubusercontent.com/61939286/142661548-95152635-3cac-4e42-84da-3e96b1b21403.png)
+![image](https://user-images.githubusercontent.com/61939286/142661862-b5a5dc3d-c85e-47bd-b641-7e27516e351d.png)
+
+<br>  
+
+
+## fopen, fclose  
+ 
+
+
+
