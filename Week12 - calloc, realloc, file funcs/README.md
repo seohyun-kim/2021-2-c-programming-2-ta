@@ -1,7 +1,7 @@
 # [12주차] calloc, realloc, file pointer
 
 
-### 🔑 key word: `calloc`,  `realloc` , `file stream`, `file pointer`, `fopen`, `fclose`
+### 🔑 key word: `calloc`,  `realloc` , `file stream`, `file pointer`, `fopen`, `fprintf`, `fscanf`
 
 <br>  
 
