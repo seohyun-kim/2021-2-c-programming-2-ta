@@ -16,8 +16,7 @@
 
 [ 💌 2021-2 C언어 중간고사 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/Week8-Midterm%20Exam/MidtermExamOnlineJudge(1534~1538).c)
 
-[⚜ 퀴즈1 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/Week10-volatile,%20void,%20main/Quiz_1_ex_sol(2021-11-09).c)
-
+[⚜ 퀴즈1 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/Week10-volatile,%20void,%20main/Quiz_1_ex_sol(2021-11-09).c) &nbsp;  &nbsp; [⚜ 퀴즈2 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/bd494d4b8e68f4587dcc04a6c248bd782ba10ec1/Week12%20-%20calloc,%20realloc,%20file%20funcs/quiz2.c)
 
 <br>  
 
@@ -45,3 +44,6 @@
 [11주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week11-memory%2C%20malloc#11%EC%A3%BC%EC%B0%A8-%ED%8F%B0%EB%85%B8%EC%9D%B4%EB%A7%8C-%EA%B5%AC%EC%A1%B0-%EC%A0%95%EC%A0%81-%EB%8F%99%EC%A0%81-%EB%A9%94%EB%AA%A8%EB%A6%AC-malloc) : `memmory allocation` `static, dynamic memory`  `malloc`
 
 [12주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week12%20-%20calloc%2C%20realloc%2C%20file%20funcs#12%EC%A3%BC%EC%B0%A8-calloc-realloc-file-pointer) : `calloc`  `realloc`  `file stream` `file pointer` `fopen` `fprintf` `fscanf`
+
+
+[13주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week13-%ED%8C%8C%EC%9D%BC%EC%9D%BD%EA%B3%A0%20%EC%93%B0%EA%B8%B0#13%EC%A3%BC%EC%B0%A8-%ED%8C%8C%EC%9D%BC-%EC%9D%BD%EA%B3%A0-%EC%93%B0%EA%B8%B0): `fgets` `feof` `fputc` `CR-LF` `fputs`
