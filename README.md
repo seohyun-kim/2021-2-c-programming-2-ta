@@ -47,3 +47,6 @@
 
 
 [13주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week13-%ED%8C%8C%EC%9D%BC%EC%9D%BD%EA%B3%A0%20%EC%93%B0%EA%B8%B0#13%EC%A3%BC%EC%B0%A8-%ED%8C%8C%EC%9D%BC-%EC%9D%BD%EA%B3%A0-%EC%93%B0%EA%B8%B0): `fgets` `feof` `fputc` `CR-LF` `fputs`
+
+
+[14주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week14%20-%ED%8C%8C%EC%9D%BC%EC%9E%85%EC%B6%9C%EB%A0%A5%2C%20%EB%B0%94%EC%9D%B4%EB%84%88%EB%A6%AC%ED%8C%8C%EC%9D%BC#14%EC%A3%BC%EC%B0%A8-%ED%8C%8C%EC%9D%BC%EC%9E%85%EC%B6%9C%EB%A0%A5-%EB%B0%94%EC%9D%B4%EB%84%88%EB%A6%AC-%ED%8C%8C%EC%9D%BC) : `fgets` `fprintf` `fscanf` `fflush` `fread` `fseek`  
