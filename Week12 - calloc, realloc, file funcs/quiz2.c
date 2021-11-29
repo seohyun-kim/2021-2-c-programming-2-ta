@@ -2,11 +2,12 @@
 
 
 
-#if 0
+#if 1
 // 작성해야 할 부분: 
 //-----------------------------------------
 // 적절한 헤더파일들을 include하시오.
 #include <stdio.h>
+#include <stdlib.h>
 //------------------------------------------
 
 struct A {
@@ -51,6 +52,7 @@ int main(void) {
 
 #if 0
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
 
