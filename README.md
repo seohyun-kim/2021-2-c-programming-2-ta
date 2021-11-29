@@ -16,7 +16,7 @@
 
 [ 💌 2021-2 C언어 중간고사 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/Week8-Midterm%20Exam/MidtermExamOnlineJudge(1534~1538).c)
 
-[⚜ 퀴즈1 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/Week10-volatile,%20void,%20main/Quiz_1_ex_sol(2021-11-09).c) &nbsp;  &nbsp; [⚜ 퀴즈2 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/bd494d4b8e68f4587dcc04a6c248bd782ba10ec1/Week12%20-%20calloc,%20realloc,%20file%20funcs/quiz2.c)
+[⚜ 퀴즈1 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/Week10-volatile,%20void,%20main/Quiz_1_ex_sol(2021-11-09).c) &nbsp;  &nbsp; [⚜ 퀴즈2 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/238a983b7b7d0b0ad4577207339b10599f4b1da8/Week12%20-%20calloc,%20realloc,%20file%20funcs/quiz2.c)
 
 <br>  
 
