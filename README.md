@@ -12,13 +12,14 @@
 
 
 ## 시험 관련 자료  
-[ 📝 중간고사 연습문제 바로가기](https://rose-buckaroo-d20.notion.site/C-2-f74930a7d46343769b6cf92e63aa5682) &nbsp;  &nbsp; [📂중간 연습문제 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/about%20Midterm%20Exam%20Practice/MidtermExamPrac.c)  
 
-[ 💌 2021-2 C언어 중간고사 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/Week8-Midterm%20Exam/MidtermExamOnlineJudge(1534~1538).c)
+|문제|답안 코드|
+|------|---|
+|[ 📝 중간고사 연습문제 바로가기](https://rose-buckaroo-d20.notion.site/C-2-f74930a7d46343769b6cf92e63aa5682)|[📂 중간 연습문제 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/about%20Midterm%20Exam%20Practice/MidtermExamPrac.c)  |
+|[🔎 중간고사 온라인 저지](http://eseoj.inu.ac.kr/JudgeOnline/problem.php?id=1534)|[ 💌 2021-2 C언어 중간고사 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/Week8-Midterm%20Exam/MidtermExamOnlineJudge(1534~1538).c)|
+|[🔎 퀴즈1 온라인 저지](http://eseoj.inu.ac.kr/JudgeOnline/problem.php?id=1542)|[⚜ 퀴즈1 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/Week10-volatile,%20void,%20main/Quiz_1_ex_sol(2021-11-09).c)|
+|[🔎 퀴즈2 온라인 저지](http://eseoj.inu.ac.kr/JudgeOnline/problem.php?id=1544) | [⚜ 퀴즈2 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/238a983b7b7d0b0ad4577207339b10599f4b1da8/Week12%20-%20calloc,%20realloc,%20file%20funcs/quiz2.c)|
 
-[⚜ 퀴즈1 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/c64bc53714c03dc3f88e49d8d11d5e657847fcac/Week10-volatile,%20void,%20main/Quiz_1_ex_sol(2021-11-09).c) &nbsp;  &nbsp; [⚜ 퀴즈2 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/238a983b7b7d0b0ad4577207339b10599f4b1da8/Week12%20-%20calloc,%20realloc,%20file%20funcs/quiz2.c)
-
-<br>  
 
 [📣 기말과제 인트로 예시영상 바로가기](https://www.youtube.com/watch?v=URfh4ClcZqc&list=PLb0pgb0RlXErPhqHHaL38hIr7HWcZDRhO&index=9)
 
