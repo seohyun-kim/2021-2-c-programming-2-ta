@@ -20,6 +20,10 @@
 
 <br>  
 
+[📣 기말과제 인트로 예시영상 바로가기](https://www.youtube.com/watch?v=URfh4ClcZqc&list=PLb0pgb0RlXErPhqHHaL38hIr7HWcZDRhO&index=9)
+
+<br>  
+
 
 ## 주차별 강의내용 정리  
 [1주차](https://github.com/seohyun-kim/C_programming_TA/tree/main/Week1-Struct#1%EC%A3%BC%EC%B0%A8-%EA%B5%AC%EC%A1%B0%EC%B2%B4-%EC%A0%95%EC%9D%98-%EC%84%A0%EC%96%B8-%EB%8C%80%EC%9E%85-%EB%B9%84%EA%B5%90)   : `struct`  
