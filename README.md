@@ -21,7 +21,9 @@
 |[🔎 퀴즈2 온라인 저지](http://eseoj.inu.ac.kr/JudgeOnline/problem.php?id=1544) | [⚜ 퀴즈2 예시답안 코드](https://github.com/seohyun-kim/C_programming_TA/blob/238a983b7b7d0b0ad4577207339b10599f4b1da8/Week12%20-%20calloc,%20realloc,%20file%20funcs/quiz2.c)|
 
 
-[📣 기말과제 인트로 예시영상 바로가기](https://www.youtube.com/watch?v=URfh4ClcZqc&list=PLb0pgb0RlXErPhqHHaL38hIr7HWcZDRhO&index=9)
+[📣 기말과제 인트로 예시영상 바로가기](https://www.youtube.com/watch?v=URfh4ClcZqc&list=PLb0pgb0RlXErPhqHHaL38hIr7HWcZDRhO&index=9)  
+
+[🎁 기말고사 범위 정리 문서 ](https://rose-buckaroo-d20.notion.site/69ea018d07414b369bec845897621ed2)  
 
 <br>  
 
