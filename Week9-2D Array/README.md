@@ -45,10 +45,6 @@
 
 <br>  
 
-## 2차원 배열과 double pointer관계: 더블 포인터를 사용하면 배열의 이름처럼 행 단위로 넘어감    
-![image](https://user-images.githubusercontent.com/61939286/139909758-1dbb365f-3d56-447f-adc0-0c41b5e5ca9c.png)
-
-<br>  
 
 ## const(상수)는 바꿀 수 없어  
 ![image](https://user-images.githubusercontent.com/61939286/139910733-0a9d6e92-4886-4d5e-a171-c320281430e7.png)
